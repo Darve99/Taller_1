@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerIdiomas">
+        <item>German</item>
+        <item>Spanish</item>
+        <item>English</item>
+        <item>Portuguese</item>
+        <item>French</item>
+        <item>Greek</item>
+        <item>Hungarian</item>
+        <item>Dutch</item>
+        <item>Arabic</item>
+        <item>Italian</item>
+    </string-array>
+
+    <string-array name="spinnerSaludos">
+        <item>Hallo</item>
+        <item>Hola</item>
+        <item>Hello</item>
+        <item>Olá</item>
+        <item>Bonjour</item>
+        <item>Γειά</item>
+        <item>Szia</item>
+        <item>Hallo</item>
+        <item>مرحبا</item>
+        <item>Ciao</item>
+        <item>こんにちは</item>
+        <item>Halló</item>
+    </string-array>
+
+</resources>

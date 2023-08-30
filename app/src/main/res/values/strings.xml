@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Taller1</string>
+    <string name="triqui">TicTacToe</string>
+    <string name="random">Random Greet</string>
+    <string name="paises">Countries</string>
+    <string name="eliga_un_pais">Eliga Un Pais</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="paisess">Paises</string>
+    <string name="nombre">"Nombre: "</string>
+    <string name="nombre_ingles">Nombre Ingles:</string>
+    <string name="capital">Capital:</string>
+    <string name="siglas">Siglas:</string>
+    <string name="TituloTriqui_1">Player One (X)</string>
+    <string name="TituloTriqui_2">Player Two (O)</string>
+    <string name="nuevoJuego">New Game</string>
+    <string name="hola">¡Hola!</string>
+    <string name="back_to_main">Volver a la pantalla principal</string>
+</resources>

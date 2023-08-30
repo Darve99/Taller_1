@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Triqui">
+
+    <TextView
+        android:id="@+id/Titulo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/TituloTriqui_1"
+        android:textColor="@color/Titulos"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/arribaIzquierda"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Titulo_1"
+        android:backgroundTint="@color/azulbase"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/arribaCentro"
+        android:onClick="onButtonClick"
+        android:tag="arribaIzquierda"/>
+
+    <Button
+        android:id="@+id/arribaCentro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Titulo_1"
+        android:backgroundTint="@color/azulbase"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick"
+        android:tag="arribaCentro"/>
+
+    <Button
+        android:id="@+id/arribaDerecha"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Titulo_1"
+        android:backgroundTint="@color/azulbase"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onButtonClick"
+        android:tag="arribaDerecha"/>
+
+    <Button
+        android:id="@+id/centroIzquierda"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/arribaIzquierda"
+        android:backgroundTint="@color/azulbase"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/arribaCentro"
+        android:onClick="onButtonClick"
+        android:tag="centroIzquierda"/>
+
+    <Button
+        android:id="@+id/centroCentro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/arribaCentro"
+        android:backgroundTint="@color/azulbase"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick"
+        android:tag="centroCentro"/>
+
+    <Button
+        android:id="@+id/centroDerecha"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/arribaCentro"
+        android:backgroundTint="@color/azulbase"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onButtonClick"
+        android:tag="centroDerecha"/>
+
+    <Button
+        android:id="@+id/abajoIzquierda"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/centroIzquierda"
+        android:backgroundTint="@color/azulbase"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/arribaCentro"
+        android:onClick="onButtonClick"
+        android:tag="abajoIzquierda"/>
+
+    <Button
+        android:id="@+id/abajoCentro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/centroCentro"
+        android:backgroundTint="@color/azulbase"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick"
+        android:tag="abajoCentro"/>
+
+    <Button
+        android:id="@+id/abajoDerecha"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/centroCentro"
+        android:backgroundTint="@color/azulbase"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onButtonClick"
+        android:tag="abajoDerecha"/>
+
+    <TextView
+        android:id="@+id/Titulo_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abajoCentro"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/TituloTriqui_2"
+        android:textColor="@color/Titulos"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nuevoJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Titulo_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/nuevoJuego"
+        android:textColor="@color/nuevoJuego"
+        android:textSize="20sp"
+        android:onClick="onNewGameClick"
+        android:textStyle="bold" />
+
+</RelativeLayout>
